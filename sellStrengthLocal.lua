@@ -1,0 +1,11 @@
+--local sellPart = workspace.Game.Sell.sellPart
+--local replicated = game:GetService("ReplicatedStorage")
+--local sellStrEvent = replicated.remote_events.sellStrength
+
+--sellPart.Touched:Connect(function(otherPart)
+--	local partParent = otherPart.Parent
+--	local humanoid = partParent:FindFirstChild("Humanoid")
+--	if humanoid then
+--		sellStrEvent:FireServer()
+--	end
+--end)
